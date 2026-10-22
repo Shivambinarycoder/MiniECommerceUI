@@ -1,0 +1,43 @@
+
+:host {
+  display: block;
+  min-width: 0;
+}
+
+.brand {
+  margin: 0 24px 0 10px;
+  font-weight: 600;
+}
+
+.page-container {
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.16);
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 16px;
+  }
+
+  .brand {
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-container {
+    padding: 8px;
+  }
+
+  .brand {
+    margin-right: 4px;
+    font-size: 14px;
+  }
+}

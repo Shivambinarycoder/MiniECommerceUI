@@ -1,0 +1,21 @@
+
+<mat-toolbar color="primary">
+  <mat-icon>shopping_cart</mat-icon>
+  <span class="brand">Microservices Store</span>
+
+  <a mat-button routerLink="/dashboard"
+     routerLinkActive="active">Dashboard</a>
+
+  <a mat-button routerLink="/products"
+     routerLinkActive="active">Products</a>
+
+  <a mat-button routerLink="/orders"
+     routerLinkActive="active">Orders</a>
+
+  <a mat-button routerLink="/create-order"
+     routerLinkActive="active">Create Order</a>
+</mat-toolbar>
+
+<main class="page-container">
+  <router-outlet></router-outlet>
+</main>

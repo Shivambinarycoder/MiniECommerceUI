@@ -1,0 +1,36 @@
+
+.login-container {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 420px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.full-width {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.error {
+  color: #c62828;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .login-container {
+    padding: 8px;
+  }
+
+  .login-card {
+    padding: 12px;
+  }
+}
